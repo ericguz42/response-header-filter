@@ -36,4 +36,4 @@ You can use multiple values for your header in `<param-value>` - just separate t
 * Set JAVA_HOME `export JAVA_HOME=/usr/lib/jvm/java-17-openjdk`
 * Ran the build command `mvn package`
 
-Caveat: I'm a total amateur and did what I'm sure is the bear minimum to get this to do what I needed it to do.
+Caveat: I'm a total amateur and did what I'm sure is the bare minimum to get this to do what I needed it to do.
