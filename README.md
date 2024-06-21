@@ -30,3 +30,10 @@ Add custom headers easily to your Tomcat response using param-name and param-val
     ```
 In `<init-param>` use `<param-name>` tag to add your custom header and below use `<param-value>` to add value to your header.
 You can use multiple values for your header in `<param-value>` - just separate them by a new line.
+
+## Build
+* Did the build on Rocky Linux 8 with `Apache Maven 3.5.4 (Red Hat 3.5.4-5)` and OpenJDK `Java version: 17.0.11, vendor: Red Hat, Inc.`
+* Set JAVA_HOME `export JAVA_HOME=/usr/lib/jvm/java-17-openjdk`
+* Ran the build command `mvn package`
+
+Caveat: I'm a total amateur and did what I'm sure is the bear minimum to get this to do what I needed it to do.
